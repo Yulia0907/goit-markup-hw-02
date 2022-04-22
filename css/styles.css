@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto',
+    sans-serif;
+
+}
+/* Шрифты для шапки */
+header {
+    background-color: #FFFFFF;
+}
+.logo {
+font-family: 'Raleway',
+sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+text-decoration-line: none;
+}
+.logo2 {
+    color: #000000;
+}
+.logo3 {
+    color: #FFFFFF;
+}
+
+.header-nav {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration-line: none;;
+}
+.header-nav:hover { 
+    color: #2196F3;
+}
+.header-contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.header-contacts:hover {
+    color: #2196F3;
+}
+
+footer {
+    background-color: #2F303A;  
+}
+
+/* kzkz */

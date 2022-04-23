@@ -5,116 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-
     <!-- Подключение шрифтов для страницы -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- Шапка -->
     <header class="header">
         <nav>
-            <a href="./index.html" lang="en" class="logo">Web<span class="logo2">Studio</span> </a>
-            <ul>
-                <li><a href="#" class="header-nav">Студия</a></li>
-                <li><a href="./index.html" class="header-nav" style="color:#2196F3;">Портфолио</a></li>
-                <li><a href="#" class="header-nav">Контакты</a></li>
+            <a href="./index.html" lang="en" class="logo">Web<span class="logo-d">Studio</span></a>
+            <ul class="header-nav">
+                <li><a href="./index.html" class="header-nav-link">Студия</a></li>
+                <li><a href="./portfolio.html" style="color:#2196F3;" class="header-nav-link">Портфолио</a></li>
+                <li><a href="#" class="header-nav-link">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li> <a href="mailto:info@devstudio.com" class="header-contacts"> info@devstudio.com</a> </li>
-            <li> <a href="tel:+380961111111" class="header-contacts">+38 096 111 11 11</a> </li>
+        <ul class="header-contacts">
+            <li> <a href="mailto:info@devstudio.com" class="header-contacts-link">info@devstudio.com</a> </li>
+            <li> <a href="tel:+380961111111" class="header-contacts-link">+38 096 111 11 11</a> </li>
         </ul>
     </header>
 
    <main>
-<section>
+<section class="section">
             <h1 hidden> Секция 1 </h1>
-            <ul>
-                <li>
-                    <button type="button"> Все </button>
+            <ul class="filtr">
+                <li class="filtr-item">
+                    <button type="button" class="filtr-button"> Все </button>
                 </li>
                 <li>
-                    <button type="button"> Веб-сайты </button>
+                    <button type="button" class="filtr-button"> Веб-сайты </button>
                 </li>
                 <li>
-                    <button type="button"> Приложения </button>
+                    <button type="button" class="filtr-button"> Приложения </button>
                 </li>
                 <li>
-                    <button type="button"> Дизайн </button>
+                    <button type="button" class="filtr-button"> Дизайн </button>
                 </li>
                 <li>
-                    <button type="button"> Маркетинг </button>
+                    <button type="button" class="filtr-button"> Маркетинг </button>
                 </li>
             </ul>
-</section>
-<section>
-        <h1 hidden> Секция 2 </h1>
-        <ul>
-            <li>
+            <ul class="portfolio">
+            <li class="portfolio-item">
                 <img src="./images/allservices/img5.jpg" alt="трое людей" width="370" height="294" />
-                <h2>Технокряк</h2>
-                <p>Веб-сайт</p>
+                <h2 class="portfolio-title">Технокряк</h2>
+                <p class="portfolio-text">Веб-сайт</p>
             </li>
-            <li>
+            <li class="portfolio-item">
                 <img src="./images/allservices/img6.jpg" alt="ддвое парнейиграют в баскетбол" width="370" height="294" />
-                <h2>Постер <span lang="en"> New Orlean vs Golden Star </span> </h2>
-                <p>Дизайн</p>
+                <h2 class="portfolio-title">Постер <span lang="en"> New Orlean vs Golden Star </span> </h2>
+                <p class="portfolio-text">Дизайн</p>
             </li>
-            <li>
+            <li class="portfolio-item">
                 <img src="./images/allservices/img7.jpg" alt="логотип с рыбой" width="370" height="294" />
-                <h2>Ресторан <span lang="en"> Seafood </span> </h2>
-                <p>Приложение</p>
+                <h2 class="portfolio-title">Ресторан <span lang="en"> Seafood </span> </h2>
+                <p class="portfolio-text">Приложение</p>
             </li>
-            <li>
+            <li class="portfolio-item">
                 <img src="./images/allservices/img8.jpg" alt="наушники" width="270" height="260" />
-                <h2>Проект <span lang="en"> Prime </span> </h2>
-                <p>Маркетинг</p>
+                <h2 class="portfolio-title">Проект <span lang="en"> Prime </span> </h2>
+                <p class="portfolio-text">Маркетинг</p>
             </li> 
-            <li>
+            <li class="portfolio-item">
                 <img src="./images/allservices/img9.jpg" alt="две коробки" width="270" height="260" />
-                <h2>Проект <span lang="en"> Boxes </span> </h2>
-                <p>Приложение</p>
+                <h2 class="portfolio-title">Проект <span lang="en"> Boxes </span> </h2>
+                <p class="portfolio-text">Приложение</p>
             </li>
-            <li>
+            <li class="portfolio-item">
                 <img src="./images/allservices/img10.jpg" alt="монитор с картой мира" width="370" height="294" />
-                <h2 lang="en">Inspiration has no Borders</h2>
-                <p>Веб-сайт</p>
+                <h2 lang="en" class="portfolio-title">Inspiration has no Borders</h2>
+                <p class="portfolio-text">Веб-сайт</p>
             </li>
-            <li>
+            <li class="portfolio-item">
                 <img src="./images/allservices/img11.jpg" alt="журнал" width="370" height="294" />
-                <h2> Издание <span lang="en"> Inspiration has no Borders </span> </h2>
-                <p>Дизайн</p>
+                <h2 class="portfolio-title"> Издание <span lang="en"> Inspiration has no Borders </span> </h2>
+                <p class="portfolio-text">Дизайн</p>
             </li>
-            <li>
+            <li class="portfolio-item">
                 <img src="./images/allservices/img12.jpg" alt="этикетка" width="270" height="260" />
-                <h2>Проект <span lang="en"> LAB </span> </h2>
-                <p>Маркетинг</p>
+                <h2 class="portfolio-title">Проект <span lang="en"> LAB </span> </h2>
+                <p class="portfolio-text">Маркетинг</p>
             </li>
-            <li>
+            <li class="portfolio-item">
                 <img src="./images/allservices/img13.jpg" alt="работанадноутбуком" width="270" height="260" />
-                <h2 lang="en"> Growing Business </h2>
-                <p>Приложение</p>
+                <h2 lang="en" class="portfolio-title"> Growing Business </h2>
+                <p class="portfolio-text">Приложение</p>
             </li>
-        </ul>
+            </ul>
 </section>
    </main>
 
      <footer class="footer">
-        <a href="#" lang="en"class="logo">Web<span class="logo3">Studio</span></a>
+        <a href="#" lang="en" class="logo">Web<span class="logo-l">Studio</span></a>
         <address>
-            <p> г. Киев, пр-т Леси Украинки, 26 </p>
-            <ul>
+            <p class="footer-address"> г. Киев, пр-т Леси Украинки, 26 </p>
+            <ul class="footer-contacts">
                 <li>
-                    <a href="">info@example.com</a>
+                    <a href="" class="footer-contacts-item">info@example.com</a>
                 </li>
                 <li>
-                    <a href="">+38 099 111 11 11</a>
+                    <a href="" class="footer-contacts-item">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>

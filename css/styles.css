@@ -46,7 +46,7 @@ body {
 .header-nav-link:hover, .header-nav-link:focus, 
 .header-contacts-link:hover, .header-contacts-link:focus,
 .footer-contacts-item:hover, .footer-contacts-item:focus
-{ color: var(--brand-btn-color); }
+{ color: var(--brand-btn-background); }
 
 /* Секция заказ услуги(баннер) */
 .banner {
